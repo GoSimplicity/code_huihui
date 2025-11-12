@@ -1,2 +1,14 @@
 server:
-  addr: ":8888"
+  port: "8080"
+  mode: "debug"  # debug, release, test
+
+log:
+  level: "info"
+  dir: "./logs"
+
+mysql:
+  addr: "root:root@tcp(localhost:3306)/code_huihui?charset=utf8mb4&parseTime=True&loc=Local"
+
+redis:
+  addr: "localhost:6379"
+  password: ""
